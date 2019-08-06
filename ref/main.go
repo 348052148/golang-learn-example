@@ -36,4 +36,6 @@ func main() {
 	}
 	fmt.Println(t)
 	v := MapTo(&B{}, (*A)(nil))
+	fmt.Println(v)
+
 }
